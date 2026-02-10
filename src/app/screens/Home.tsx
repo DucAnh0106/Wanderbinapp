@@ -4,7 +4,7 @@ import { Card } from "../components/ui/card";
 import { Badge } from "../components/ui/badge";
 import { Button } from "../components/ui/button";
 import { MapPin } from "lucide-react";
-import mapBackground from "figma:asset/c3ea13ab7f4bf01221bfb3f7adc1fccc2b71602d.png";
+import mapBackground from "@/assets/c3ea13ab7f4bf01221bfb3f7adc1fccc2b71602d.png";
 
 interface Robot {
   id: string;

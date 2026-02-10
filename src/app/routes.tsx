@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router";
+import { createHashRouter } from "react-router";
 import { Home } from "./screens/Home";
 import { EnRoute } from "./screens/EnRoute";
 import { ScanItem } from "./screens/ScanItem";
@@ -6,7 +6,7 @@ import { ResultRecyclable } from "./screens/ResultRecyclable";
 import { ResultNotRecyclable } from "./screens/ResultNotRecyclable";
 import { Departure } from "./screens/Departure";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     path: "/",
     Component: Home,
